@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: process.env.REACT_APP_API_URL || '/api',
+  baseURL: process.env.REACT_APP_API_URL || 'https://task-manager-mern-stack-sn4o.onrender.com/api',
   headers: { 'Content-Type': 'application/json' },
 });
 
