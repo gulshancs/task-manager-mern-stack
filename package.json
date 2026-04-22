@@ -1,0 +1,19 @@
+{
+  "name": "taskmanager",
+  "version": "1.0.0",
+  "description": "A full-stack, production-ready Task Manager application built with the **MERN Stack** (MongoDB, Express.js, React.js, Node.js). Features secure JWT authentication, full CRUD task management, real-time filtering/searching/sorting, and a statistics dashboard.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "frontend": "cd frontend && npm start",
+    "backend": "cd backend && node server.js",
+    "dev": "concurrently -n \"frontend,backend\" -c \"bgBlue,bgYellow\" \"npm run frontend\" \"npm run backend\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
